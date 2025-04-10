@@ -31,7 +31,7 @@ app.get("/continentes/:id", (req, res)=>{
 });
 
 app.listen(PORT, ()=>{
-    console.log(`Servidor iniciado en el puerto ${PORT}`);
+    console.log(`Servidor iniciado en el puerto: ${PORT}`);
 });
 
 module.exports = app;
